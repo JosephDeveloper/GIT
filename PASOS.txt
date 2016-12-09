@@ -89,3 +89,7 @@ E iniciar sesion
 
 Al hacer cambios de los archivos en la computadora para realizar los cambios en nuestro repositorio en github y el nombre de la rama en este caso master
 git push origin master
+
+Subir ramas a github y el nombre de la rama en este caso testeo
+git push origin testeo
+
