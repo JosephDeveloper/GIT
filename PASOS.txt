@@ -75,3 +75,15 @@ git branch -D ...Nombre de la rama
 
 Para vincular proyecto local con nuestro proyecto remoto
 git remote add origin ....y el url del repositorio  https://github.com/JosephDeveloper/GIT.git
+
+Para comprobar la vinculacion
+git remote -v
+
+Para remover el repositorio remoto
+git remote remove origin
+
+Para pasar los archivos de la computadora a github
+y el nombre de la rama en este caso la del master
+git push origin master
+E iniciar sesion
+
