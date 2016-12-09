@@ -1,0 +1,77 @@
+clear 
+borrar
+
+Ir al directorio
+cd.......
+
+Para clonar
+git clone git://url
+o crear carpetas dentro del directorio con los archivos
+
+para iniciar
+git init
+
+estado del proyecto
+git status
+
+agregar
+git add ....nombre de archivos
+
+o para agregar todo de una
+git add -A
+
+Mensaje para identificarlo
+git commit -m "Mensaje"
+
+nota:localizarse en la carpeta final
+
+Nos dice todos los commit que hemos hecho
+git log
+
+Para ver lo que llevabamos antes 
+git checkout .....y aqui va el commit 
+
+Para volver al ultimo commit que hicimos, todo a la normalidad del final
+git checkout master
+
+Para eliminar los commit (CUIDADO)
+
+Es el mas simple y no se mete en nuestro codigo no lo borra, borra el de git
+git reset --soft .....y el commit, el sha
+
+Es el que borra absolutamente todo lo que hay en el commit, codigo
+git reset --hard .....y el commit, el sha
+
+Para generar un txt de todos los commit en la carpeta del proyecto
+git log > commits.txt
+
+Ayuda de git
+git help
+
+Para ver las ramas
+git branch
+
+Para crear una rama y se crea con todo lo que se lleva hasta ahora con el master
+git branch ...y el nombre
+git branch Test
+
+git chekout -b ...y el nombre
+crear y b- moverse a la rama
+
+
+Para movernos a la rama creada
+git checkout ...y el nombre
+git checkout Test
+
+Para traer los datos del commit de una rama a la master situarse en la rama que la va absorber en este caso master
+git checkout master
+
+y despues fusionar
+git merge ...y nombre de la rama que tiene los nuevos cambios
+git merge Test
+
+Para eliminar la rama
+git branch -D ...Nombre de la rama
+
+Para vincular proyecto local con nuestro proyecto remoto
+git remote add origin ....y el url del repositorio  https://github.com/JosephDeveloper/GIT.git
